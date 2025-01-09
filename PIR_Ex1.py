@@ -5,7 +5,7 @@ import RPi.GPIO as GPIO
 from time import sleep
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
-PIR_PIN = 4
+PIR_PIN = 23
 GPIO.setup(PIR_PIN, GPIO.IN)
 
 while True:
